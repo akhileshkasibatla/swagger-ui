@@ -46,8 +46,6 @@ import Model from "core/components/model"
 import Models from "core/components/models"
 import TryItOutButton from "core/components/try-it-out-button"
 
-import Markdown from "core/components/providers/markdown"
-
 import BaseLayout from "core/components/layouts/base"
 
 import * as LayoutUtils from "core/components/layout-utils"
@@ -91,7 +89,6 @@ export default function() {
       model: Model,
       models: Models,
       TryItOutButton,
-      Markdown,
       BaseLayout
     }
   }
